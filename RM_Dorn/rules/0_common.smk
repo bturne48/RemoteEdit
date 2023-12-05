@@ -1,0 +1,1 @@
+strains = config['strains']

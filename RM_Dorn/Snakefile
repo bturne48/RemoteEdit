@@ -1,0 +1,9 @@
+configfile: "../config/config.yaml"
+include: "rules/0_common.smk"
+
+rule all:
+     input: 
+          expand(
+               'results/',
+               strain=strains, 
+          )
