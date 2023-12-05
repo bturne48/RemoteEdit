@@ -1,0 +1,10 @@
+configfile: "../config/config.yaml"
+include: "rules/0_common.smk"
+include: "rules/1_blastProcessing.smk"
+
+rule all:
+     input: 
+          expand(
+               'results/{species}.fa',
+               species=species, 
+          )
