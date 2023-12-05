@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 6 of /projects/rogers_research/fnb/Brandon/RemoteEdit/RM_Dorn/workflow/Snakefile:
+Missing input files for rule all:
+results/species1.fa
